@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Article Media Value</title>
+</head>
+<body>
+    <h1>Article Media Value</h1>
+
+    <p><a href="https://www.example.com/article">Link to the Article</a></p>
+
+    <div id="mediaValueContainer"></div>
+
+    <script>
+        // Assuming you have the media value data available
+        var mediaValue = 1000; // Replace with the actual media value of the article
+
+        // Display the media value in the page
+        var mediaValueContainer = document.getElementById("mediaValueContainer");
+        mediaValueContainer.innerHTML = "Media Value: $" + mediaValue.toFixed(2);
+    </script>
+</body>
+</html>
